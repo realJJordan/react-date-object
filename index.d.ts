@@ -549,6 +549,13 @@ declare module "react-date-object/locales/gregorian_en" {
   const gregorian_en: Locale;
 
   export default gregorian_en;
+
+  declare module "react-date-object/locales/gregorian_pl" {
+    import type { Locale } from "react-date-object";
+  
+    const gregorian_pl: Locale;
+  
+    export default gregorian_pl;
 }
 
 declare module "react-date-object/locales/gregorian_fa" {
@@ -583,6 +590,14 @@ declare module "react-date-object/locales/persian_en" {
   export default persian_en;
 }
 
+declare module "react-date-object/locales/persian_pl" {
+  import type { Locale } from "react-date-object";
+
+  const persian_pl: Locale;
+
+  export default persian_pl;
+}
+
 declare module "react-date-object/locales/persian_fa" {
   import type { Locale } from "react-date-object";
 
@@ -615,6 +630,14 @@ declare module "react-date-object/locales/arabic_en" {
   export default arabic_en;
 }
 
+declare module "react-date-object/locales/arabic_pl" {
+  import type { Locale } from "react-date-object";
+
+  const arabic_pl: Locale;
+
+  export default arabic_pl;
+}
+
 declare module "react-date-object/locales/arabic_fa" {
   import type { Locale } from "react-date-object";
 
@@ -645,6 +668,14 @@ declare module "react-date-object/locales/indian_en" {
   const indian_en: Locale;
 
   export default indian_en;
+}
+
+declare module "react-date-object/locales/indian_pl" {
+  import type { Locale } from "react-date-object";
+
+  const indian_pl: Locale;
+
+  export default indian_pl;
 }
 
 declare module "react-date-object/locales/indian_fa" {
